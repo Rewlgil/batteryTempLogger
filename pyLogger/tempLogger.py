@@ -16,7 +16,7 @@ def main():
                     line = str(ser.readline()).strip("b'").strip("'\\n")
                     temp = line.split(',')
                     
-                    if len(temp) != 9:
+                    if len(temp) != 18:
                         continue
                     
                     current_time = datetime.datetime.now()
